@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-authentication",
+  "version": "1.0.0",
+  "description": "nodeJS Authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seunzone/nodeJS-Authentication.git"
+  },
+  "author": "Seun Daramola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seunzone/nodeJS-Authentication/issues"
+  },
+  "homepage": "https://github.com/seunzone/nodeJS-Authentication#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.12",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.2.1"
+  }
+}
